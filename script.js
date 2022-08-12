@@ -25,9 +25,9 @@ function CustomPush(array,element,index){
 
 const array2=[2,4,6,8,0]
 
-CustomPop(array2,9)
+CustomPop(array2,4)
 
-console.log(array2)
+
 function CustomPop(array,deleteindex){
    if(deleteindex>array.length-1){
     console.log(`ArrayIndexOutOfBounds`)
